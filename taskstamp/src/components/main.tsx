@@ -4,12 +4,7 @@ export function Main({ name = "Extension" }) {
   const [data, setData] = useState("")
 
   return (
-    <div
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        padding: 16
-      }}>
+    <div className="flex flex-col p-4 w-32">
       <h1>
         Welcome to your <a href="https://www.plasmo.com">Plasmo</a> {name}!
       </h1>
